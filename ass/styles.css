@@ -1,0 +1,204 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #bd7e46eb;
+  }
+  
+  /* Color Scheme */
+  :root {
+    --primary-color: #b6df6c;
+    --secondary-color: #fff;
+    --accent-color: #595757;
+    --background-color: #f4f4f4;
+  }
+  
+  /* Header */
+  header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Home Section */
+  #home {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .articles {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .articles article {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 300px;
+    border-radius: 5px;
+  }
+  
+  .articles article h2 {
+    margin-bottom: 10px;
+    color: var(--primary-color);
+  }
+  
+  .articles article a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  .articles article a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Services Section */
+  #services {
+    background-color: var(--secondary-color);
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  #services ul {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  #services ul li {
+    background: url('checkmark.png') no-repeat left center;
+    padding-left: 30px;
+    margin-bottom: 10px;
+  }
+  
+  /* Work Showcase Section */
+  #work {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .gallery img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+  }
+  
+  /* Additional Information Section */
+  #additional {
+    background-color: var(--secondary-color);
+    padding: 40px 20px;
+  }
+  
+  #additional table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+    border-collapse: collapse;
+  }
+  
+  #additional table, #additional th, #additional td {
+    border: 1px solid #ddd;
+  }
+  
+  #additional th, #additional td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #additional th {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  
+  #additional ul {
+    list-style-type: square;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  #additional ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer .external-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  
+  footer .external-links li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+  }
+  
+  footer .external-links li a:hover {
+    text-decoration: underline;
+  }
+  
+  footer p {
+    margin-top: 10px;
+    font-size: 0.9em;
+  }
+  
